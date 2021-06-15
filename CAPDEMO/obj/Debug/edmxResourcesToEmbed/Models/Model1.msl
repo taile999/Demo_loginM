@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CAP2021ModelStoreContainer" CdmEntityContainer="CAP2021Entities">
+    <EntitySetMapping Name="SINHVIENs">
+      <EntityTypeMapping TypeName="CAP2021Model.SINHVIEN">
+        <MappingFragment StoreEntitySet="SINHVIEN">
+          <ScalarProperty Name="IDSinhVien" ColumnName="IDSinhVien" />
+          <ScalarProperty Name="IDLopHoc" ColumnName="IDLopHoc" />
+          <ScalarProperty Name="IDKhoaDaoTao" ColumnName="IDKhoaDaoTao" />
+          <ScalarProperty Name="MaSV" ColumnName="MaSV" />
+          <ScalarProperty Name="HoTenSV" ColumnName="HoTenSV" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="CMND" ColumnName="CMND" />
+          <ScalarProperty Name="TenKhoaDaoTao" ColumnName="TenKhoaDaoTao" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="TenLop" ColumnName="TenLop" />
+          <ScalarProperty Name="TenCN" ColumnName="TenCN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
